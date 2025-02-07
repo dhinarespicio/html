@@ -1,0 +1,299 @@
+v<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dina Respicio - Web Portfolio</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #0073b1;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #f1f1f1;
+            border-bottom: 2px solid white;
+        }
+
+        /* About Me Section */
+        #about {
+            padding: 80px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        /* Skills Section */
+        #skills {
+            background-color: #f1f1f1;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        #skills ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        #skills ul li {
+            background-color: #0073b1;
+            color: white;
+            margin: 10px;
+            padding: 15px 25px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+
+        #skills ul li:hover {
+            background-color: #005f8d;
+        }
+
+        /* Blogs Section */
+        #blogs {
+            background-color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        #blogs ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #blogs ul li {
+            margin: 15px 0;
+        }
+
+        #blogs ul li a {
+            color: #0073b1;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        #blogs ul li a:hover {
+            color: #005f8d;
+            text-decoration: underline;
+        }
+
+        /* Testimonials Section */
+        #testimonials {
+            background-color: #f1f1f1;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        #contact input,
+        #contact textarea {
+            margin: 10px 0;
+            padding: 12px;
+            font-size: 1rem;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #contact .cta-button {
+            background-color: #0073b1;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        #contact .cta-button:hover {
+            background-color: #005f8d;
+        }
+
+        /* Social Media Section */
+        .social-media {
+            margin-top: 30px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #0073b1;
+            font-size: 1.5rem;
+            margin: 0 15px;
+        }
+
+        .social-media a:hover {
+            color: #005f8d;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Dina Respicio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Dina Respicio, a passionate SPES work student who is eager to contribute to [Your Field]. With a strong foundation in [Your Major/Field], I am committed to gaining real-world experience and furthering my skills to make an impact.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+                <li>Web Development</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs">
+        <div class="container">
+            <h2>Blogs</h2>
+            <ul>
+                <li><a href="https://yourblog1.com" target="_blank">How the SPES Program Helped Me Succeed</a></li>
+                <li><a href="https://yourblog2.com" target="_blank">5 Tips for Balancing Work and Study</a></li>
+                <li><a href="https://yourblog3.com" target="_blank">Navigating the Challenges of Online Learning</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <p>"Dina has shown incredible work ethic and dedication during her time with us. She's a great team player and a quick learner." - Supervisor</p>
+            <p>"Her ability to communicate effectively and manage tasks under pressure is outstanding." - Peer</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out using the form below, or connect with me on LinkedIn!</p>
+            <form action="#" method="post" onsubmit="alert('Form submitted successfully!'); return false;">
+                <input type="text" placeholder="Name:" required>
+                <input type="email" placeholder="Email Address:" required>
+                 <input type="phone number" placeholder="Phone Number:" required>
+            
+                <textarea placeholder="Your Message:" required></textarea>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Dina Respicio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
